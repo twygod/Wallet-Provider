@@ -19,6 +19,7 @@ class EthereumProvider extends Web3Standard implements Provider {
         new Exception("web3_wallet_not_found", "Web3 Wallet was not found")
       );
     }
+
     this.setProvider(provider);
   }
 }
